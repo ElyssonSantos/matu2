@@ -155,7 +155,7 @@ All colors MUST be HSL.
   }
   
   .bg-gradient-subtle {
-    background: linear-gradient(180deg, hsl(0 0% 100%), hsl(330 30% 98%));
+    background: linear-gradient(180deg, hsl(0 0% 100%), hsl(151 30% 98%));
   }
   
   .cosmetic-pattern-bg {

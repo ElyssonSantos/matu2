@@ -259,11 +259,11 @@ CREATE TABLE IF NOT EXISTS public.rotating_messages (
   message text NOT NULL,
   link text,
   scroll_speed integer DEFAULT 30,
-  color text DEFAULT '#FF69B4',
+  color text DEFAULT '#059669',
   is_active boolean DEFAULT true,
   display_order integer DEFAULT 0,
   text_color TEXT DEFAULT '#FFFFFF',
-  bg_color TEXT DEFAULT '#FF1493',
+  bg_color TEXT DEFAULT '#065f46',
   created_at timestamptz DEFAULT now(),
   updated_at timestamptz DEFAULT now()
 );

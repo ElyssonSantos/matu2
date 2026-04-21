@@ -36,7 +36,7 @@ interface DashboardData {
   ordersByStatus: { status: string; count: number }[];
 }
 
-const COLORS = ['#ec4899', '#f472b6', '#fbcfe8', '#fce7f3'];
+const COLORS = ['#059669', '#10b981', '#34d399', '#6ee7b7'];
 
 export default function DashboardStats() {
   const [data, setData] = useState<DashboardData>({
@@ -255,7 +255,7 @@ export default function DashboardStats() {
                 <YAxis />
                 <Tooltip />
                 <Legend />
-                <Line type="monotone" dataKey="value" stroke="#ec4899" name="Vendas (R$)" />
+                <Line type="monotone" dataKey="value" stroke="#059669" name="Vendas (R$)" />
               </LineChart>
             </ResponsiveContainer>
           </CardContent>
@@ -273,7 +273,7 @@ export default function DashboardStats() {
                 <YAxis />
                 <Tooltip />
                 <Legend />
-                <Area type="monotone" dataKey="value" stroke="#ec4899" fill="#fbcfe8" name="Faturamento (R$)" />
+                <Area type="monotone" dataKey="value" stroke="#059669" fill="#d1fae5" name="Faturamento (R$)" />
               </AreaChart>
             </ResponsiveContainer>
           </CardContent>
@@ -291,7 +291,7 @@ export default function DashboardStats() {
                 <YAxis />
                 <Tooltip />
                 <Legend />
-                <Bar dataKey="sales" fill="#ec4899" name="Vendas" />
+                <Bar dataKey="sales" fill="#059669" name="Vendas" />
               </BarChart>
             </ResponsiveContainer>
           </CardContent>

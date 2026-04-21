@@ -42,7 +42,7 @@ export function SocialButtons() {
       >
         <Button
           size="icon"
-          className="h-14 w-14 rounded-full shadow-glow bg-gradient-to-r from-purple-500 to-pink-500 hover:scale-110 transition-transform"
+          className="h-14 w-14 rounded-full shadow-glow bg-gradient-to-r from-emerald-500 to-teal-600 hover:scale-110 transition-transform"
         >
           <Instagram className="h-6 w-6" />
         </Button>
